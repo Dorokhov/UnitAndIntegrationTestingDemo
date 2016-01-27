@@ -11,7 +11,6 @@ namespace Movies.Demo.Tests
         public void Return_Two_Movies_By_Default()
         {
             // arrange
-            var starWarsNewHope = AppMovies.NewHope;
             MovieRepository movieRepository = new MovieRepository();
 
             // act
@@ -19,7 +18,6 @@ namespace Movies.Demo.Tests
 
             // assert
             movies.Should().HaveCount(AppMovies.Movies.Count());
-            movies.First().ShouldBeEquivalentTo(starWarsNewHope);
         }
     }
 }
