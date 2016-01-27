@@ -2,9 +2,13 @@
 Source code of unit and integration testing demo
 
 Frameworks:
+
 xUnit: https://github.com/xunit/xunit
+
 Fluent Assertions: https://github.com/dennisdoomen/fluentassertions
+
 Moq: https://github.com/Moq/moq
+
 Fluent Automation: https://github.com/stirno/FluentAutomation
 
 Tools:
