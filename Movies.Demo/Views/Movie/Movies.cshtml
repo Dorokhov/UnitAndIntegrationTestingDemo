@@ -1,0 +1,12 @@
+﻿@using Movies.Demo.Models
+
+<table class="table">
+    @foreach (MovieEntity item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.ReleaseDate.ToString("dd.MM.yyyy")</td>
+            <td>@item.Description</td>
+        </tr>
+    }
+</table>
