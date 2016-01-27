@@ -1,9 +1,7 @@
 # UnitAndIntegrationTestingDemo
-Source code of unit and integration testing demo
-
 Frameworks:
 
-xUnit: https://github.com/xunit/xunit
+xUnit: https://github.com/xunit/xunit <br/>
 Fluent Assertions: https://github.com/dennisdoomen/fluentassertions
 Moq: https://github.com/Moq/moq
 Fluent Automation: https://github.com/stirno/FluentAutomation
